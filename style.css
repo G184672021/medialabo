@@ -3,7 +3,7 @@ h1{
   color: #010101;
   content: "";
   display: block;
-  height: 18px;
+  height: 22px;
   background: -webkit-linear-gradient(to right, rgb(148, 255, 115), #f1fd3f);
   background: linear-gradient(to right, rgb(166, 255, 115), #fdf46d);
 
