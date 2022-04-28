@@ -1,7 +1,11 @@
 h1{
   padding: 0.5em;
   color: #010101;
-  background: #cdfdd4;
+  content: "";
+    display: block;
+    height: 7px;
+    background: -webkit-linear-gradient(to right, rgb(148, 255, 115), #f1fd3f);
+    background: linear-gradient(to right, rgb(166, 255, 115), #fdf46d);
   border-bottom: solid 3px #15a846;
 }
 h2:before {
