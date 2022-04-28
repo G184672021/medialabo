@@ -4,7 +4,7 @@ h1{
   background: #cdfdd4;
   border-bottom: solid 3px #15a846;
 }
-h1:before {
+h2:before {
     content: '●';
     color: white;
     margin-right: 8px;
