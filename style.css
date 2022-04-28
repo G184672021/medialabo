@@ -4,6 +4,9 @@ h1{
 }
 h2{
     color: rgb(4, 128, 41);
+    border-bottom:2px;
+}
+h3{
     border-bottom:2px dotted;
 }
 body{
