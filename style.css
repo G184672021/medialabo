@@ -24,7 +24,7 @@ h3{
 h3{
     content: "";
     display: block;
-    height: 0px;
+    height: 10px;
     background: -webkit-linear-gradient(to right, rgb(148, 255, 115), #f1fd3f);
     background: linear-gradient(to right, rgb(166, 255, 115), #fdf46d);
 }
