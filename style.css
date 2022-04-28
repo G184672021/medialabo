@@ -1,6 +1,6 @@
 h1{
     background-color: rgb(31, 231, 91);
-    border-bottom: 5px solid;
+    border:4mm ridge rgba(0, 155, 21, 0.6);
 }
 h2{
     color: rgb(4, 128, 41);
