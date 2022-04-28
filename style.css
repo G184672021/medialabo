@@ -10,16 +10,24 @@ h2:before {
     margin-right: 8px;
   }
 h2{
-    color: #000000;/*文字色*/
-  padding: 0.5em;/*文字周りの余白*/
-  display: inline-block;/*おまじない*/
-  line-height: 1.3;/*行高*/
-  background: #cdfdd4;/*背景色*/
+    color: #000000;
+  padding: 0.5em;
+  display: inline-block;
+  line-height: 1.3;
+  background: #cdfdd4;
   vertical-align: middle;
-  border-radius: 25px 0px 0px 25px;/*左側の角を丸く*/
+  border-radius: 25px 0px 0px 25px;
 }
 h3{
-    border-bottom: dotted;
+    position: relative;
+  padding: 0.25em 0;
+}
+h3{
+    content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(230, 90, 90), transparent);
+  background: linear-gradient(to right, rgb(230, 90, 90), transparent);
 }
 body{
     background-color: aliceblue;
