@@ -21,5 +21,5 @@ for(let n of buildingD){
 	console.log(n);
 }
 for(let i of gakka){
-	console.log(gakka.name(i));
+	console.log(g.name);
 }
