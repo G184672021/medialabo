@@ -29,7 +29,7 @@ function hantei() {
         else if(kotae<yoso){
             console.log('まちがい．答えはもっと小さいですよ');
         }
-        else if(i==3){
+        else if(i==4){
             console.log('まちがい．残念でした答えは'+kotae+'です．');
         }
         if(i<3){
