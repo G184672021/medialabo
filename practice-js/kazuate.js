@@ -17,7 +17,7 @@ function hantei() {
     //        判定結果はコンソールに出力すること
     for(let i=1;i<5;i++){
         console.log(i+'回目の予想:'+yoso);
-        if(kotae==yoso){
+        if(kotae==yoso && i>4){
             console.log('正解です．おめでとう!');
         }
         else if(kotae>yoso){
@@ -29,7 +29,7 @@ function hantei() {
         else if(i<3 && i==4){
             console.log('まちがい．残念でした答えは'+kotae+'です．');
         }
-        else if(i<3){
+        if(i<4){
             console.log('答えは'+kotae+'でした．すでにゲームは終わっています');
         }
     }
