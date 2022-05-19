@@ -20,13 +20,13 @@ function hantei() {
         if(kotae==yoso){
             console.log('正解です．おめでとう!');
         }
-        else if(i>3 && kotae>yoso){
+        else if(kotae>yoso){
             console.log('まちがい．答えはもっと大きいですよ');
         }
         else if(kotae<yoso){
             console.log('まちがい．答えはもっと小さいですよ');
         }
-        else if(i==4){
+        else if(i<3 && i==4){
             console.log('まちがい．残念でした答えは'+kotae+'です．');
         }
         else if(i<3){
