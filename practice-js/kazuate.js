@@ -15,7 +15,7 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-    for(let i=1;i<5;i++){
+    for(let i=1;i<6;i++){
         console.log(i+'回目の予想:'+yoso);
         if(kotae==yoso && i>4){
             console.log('正解です．おめでとう!');
@@ -26,10 +26,10 @@ function hantei() {
         else if(kotae<yoso){
             console.log('まちがい．答えはもっと小さいですよ');
         }
-        else if(i<3 && i==4){
+        else if(i==5){
             console.log('まちがい．残念でした答えは'+kotae+'です．');
         }
-        else if(i<3){
+        else if(i<4){
             console.log('答えは'+kotae+'でした．すでにゲームは終わっています');
         }
     }
