@@ -29,7 +29,7 @@ function hantei() {
         else if(i==4){
             console.log('まちがい．残念でした答えは'+kotae+'です．');
         }
-        if(i<3){
+        else if(i<3){
             console.log('答えは'+kotae+'でした．すでにゲームは終わっています');
         }
     }
