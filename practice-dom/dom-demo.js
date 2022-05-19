@@ -35,5 +35,5 @@ for (let o of oceans) {
   // （この中を完成させる）
   let li = document.createElement('li');
   li.textContent = o;
-  ul.insertAdjacentElement('beforeend',ul);
+  ul.insertAdjacentElement('beforeend',li);
 }
