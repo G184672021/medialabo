@@ -15,7 +15,7 @@ function hantei() {
     // 課題3-1：ここの判定処理を作成する．
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
-    for(let i=1;i<4;i++){
+    for(let i=1;i<5;i++){
         console.log(i+'回目の予想:'+yoso);
         if(kotae==yoso){
             console.log('正解です．おめでとう!');
