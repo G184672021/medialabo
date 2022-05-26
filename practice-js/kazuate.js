@@ -39,4 +39,11 @@ function hantei() {
             console.log('答えは'+kotae+'でした．すでにゲームは終わっています');
         }
     }
+    let presult = document.querySelector('p#result');
+    
+    if(yoso==kotae){
+    li = document.createElement('li');
+    li.textContent = '正解です．おめでとう!'; 
+    ul.insertAdjacentElement('beforeend', li);
+    }
 }
