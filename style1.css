@@ -1,8 +1,10 @@
 h1{
-    background-color: rgb(140, 243, 171);
-    border:4mm ridge rgba(52, 187, 39, 0.6);
+    padding: 0.5em;/*文字周りの余白*/
+    color: #494949;/*文字色*/
+    background: #caf3d5;/*背景色*/
+    border-left: solid 5px #15eb31;/*左線（実線 太さ 色）*/
 }
 body{
-    background-color: rgb(205, 247, 218);
+    background-color: rgb(218, 238, 225);
 }
 
