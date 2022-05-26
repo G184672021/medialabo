@@ -3,7 +3,7 @@ let kotae = Math.floor(Math.random()*10) + 1;
 console.log('答え: ' + kotae);      // デバッグ用
 
 // 入力回数（予想回数）
-let kaisu = 1;
+let kaisu = 5;
 
 // 予想を4回実行する
 // 将来: ボタンを押したら， hantei() を呼び出すように修正する
@@ -19,10 +19,6 @@ function hantei() {
     let x =(kaisu + "回目の予想" + yoso);
     let s =document.querySelector("span#x");
     s.textContent = x;
-
-
-
-        console.log(i+'回目の予想:'+yoso);
 
         if(kotae==yoso && kaisu<3){
             let ans =('正解です．おめでとう!');
@@ -43,7 +39,7 @@ function hantei() {
         else if(kaisu>3){
             ans =('答えは'+kotae+'でした．すでにゲームは終わっています');
         }
-    let b = document.querySelector('p#ans');
+    let b = document.querySelector('span#ans');
     b.textContent=ans;
 
 }
