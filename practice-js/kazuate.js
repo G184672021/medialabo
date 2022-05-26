@@ -19,23 +19,23 @@ function hantei() {
 
         console.log(i+'回目の予想:'+yoso);
 
-        if(kotae==yoso && i<4){
+        if(kotae==yoso && i<3){
             console.log('正解です．おめでとう!');
         }
 
-        else if(kotae>yoso && i<4){
+        else if(kotae>yoso && i<3){
             console.log('まちがい．答えはもっと大きいですよ');
         }
 
-        else if(kotae<yoso && i<4){
+        else if(kotae<yoso && i<3){
             console.log('まちがい．答えはもっと小さいですよ');
         }
 
-        else if(i==4){
+        else if(i==3){
             console.log('まちがい．残念でした答えは'+kotae+'です．');
         }
 
-        else if(i>4){
+        else if(i>3){
             console.log('答えは'+kotae+'でした．すでにゲームは終わっています');
         }
     }
