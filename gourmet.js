@@ -205,9 +205,14 @@ let data = {
 let b = document.querySelector('#sendRequest');
 b.addEventListener('click', sendRequest);
 
-
+let z =0;
 // 通信を開始する処理
 function sendRequest() {
+  for(let i =0;i<z;i++){
+  let element = document.querySelector('p');
+  element.remove();
+}
+z=0;
 	// URL を設定
   let e = document.querySelector('input[name="number"]');
   let key =e.value;
@@ -219,6 +224,7 @@ function sendRequest() {
 		.catch(showError)
 		.then(finish);
 }
+let ta = document.querySelector('table');
 
 // 通信が成功した時の処理
 function showResult(resp) {
@@ -235,9 +241,11 @@ function showResult(resp) {
 
 	// data.x を出力
   for(let n of data.results.shop){
-    console.log(n.access);
-    let c = document.querySelector('p#access');
-    c.textContent=n.access;
+    console.log(n.name);
+    let p = document.createElement('p');
+    p.textContent = n.name;
+    ta.insertAdjacentElement('afterend', p);
+    z++;
   }
 }
 
