@@ -18,7 +18,7 @@ function hantei() {
     //        ページに表示する方法はまだ習っていないので
     //        判定結果はコンソールに出力すること
 
-    let x =(kaisu + "回目の予想" + yoso);
+    let x =(kaisu + "回目の予想 :" + yoso);
     let s =document.querySelector("span#x");
     s.textContent = x;
 

@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Projects</title>
     <link rel="stylesheet" href="style1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
     <script src="gourmet.js" defer></script>
   </head>
 
@@ -12,11 +13,8 @@
 
     <h1>グルメ情報</h1>
 
-    <form method="POST" action="sample.cgi">
-      <p>検索<input type="text"></p>
-      <p><input type="submit" value="検索"></p>
-      <input type="reset" value="取消する">
-    </form>
+    <input type="sendRequest" name="number" size="10">
+    <button id="sendRequest">検索</button>
 
     <table border="2">
       <tr>
@@ -60,6 +58,8 @@
         <td>サブジャンルの名前</td>
       </tr>
     </table>
+    
+    <p id="access"><span id ="x"></span></p>
 
   </body>
 </html>
